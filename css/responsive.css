@@ -541,3 +541,20 @@
         padding-top: 20px;
     }
 }
+
+/* students page */
+@media (max-width: 767px) {
+    .students_level {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .students_role {
+        padding-left: 18px;
+    }
+    .students_list {
+        padding-left: 28px;
+    }
+    .students_list li {
+        font-size: 14px;
+    }
+}

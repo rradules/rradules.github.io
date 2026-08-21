@@ -545,6 +545,47 @@ figure:hover+span {
     padding-left: 20px;
 }
 
+/* students page */
+.students_level {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #116466;
+    font-weight: bold;
+    font-family: 'Baloo Chettan 2', cursive;
+    padding-left: 20px;
+    margin: 22px 0px 4px 0px;
+}
+
+.students_role {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    color: #737372;
+    font-style: italic;
+    padding-left: 45px;
+    margin: 10px 0px 2px 0px;
+}
+
+.students_list {
+    width: 100%;
+    float: left;
+    padding-left: 62px;
+    margin: 0px;
+}
+
+.students_list li {
+    font-size: 16px;
+    color: #060606;
+    padding: 7px 0px;
+    list-style-type: circle;
+    line-height: 1.6;
+}
+
+.students_list li .thesis_title {
+    color: #737372;
+}
+
 .dummy_text {
     width: 100%;
     font-size: 16px;
