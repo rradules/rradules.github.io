@@ -740,7 +740,20 @@ figure:hover+span {
 
 .customer_main {
     width: 100%;
+    float: left;
     margin-top: 20px;
+}
+
+.customer_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+}
+
+.customer_img img {
+    max-height: 160px;
+    width: auto;
 }
 
 .customer_main_1 {
