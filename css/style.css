@@ -1051,6 +1051,13 @@ textarea#comment.massage-bt::placeholder {
     color: #ffffff;
 }
 
+/* Bluesky icon: Font Awesome Free 7.3.1 (CC BY 4.0) - https://fontawesome.com/license/free */
+.footer_social_icon li a .bsky_icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: -3px;
+}
+
 
 /* footer section end */
 
