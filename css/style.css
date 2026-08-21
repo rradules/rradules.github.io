@@ -553,6 +553,15 @@ figure:hover+span {
     padding-left: 45px;
 }
 
+.market_section_2 .dummy_text {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.market_section_2 .dummy_text + .dummy_text {
+    margin-top: 14px;
+}
+
 .seemore_bt {
     width: 170px;
     margin: 0 auto;

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>R&abreve;dulescu</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+          <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+          <link rel="shortcut icon" href="favicon.png">
+   </head>
+   <body>
+      <div class="header_section">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav ml-auto">
+                       <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link" href="research.html">Research</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link" href="publications.html">Publications</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link" href="tutorials.html">Courses and Tutorials</a>
+                       </li>
+                      <!-- <li class="nav-item">
+                          <a class="nav-link" href="blog.html">Blog</a>-->
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                       </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                  </form>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- header section end -->
+      <!-- market section start -->
+      <div class="market_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="market_taital">Research interests</h1>
+               </div>
+            </div>
+            <div class="market_section_2" id="rl">
+               <h4 class="market_text"><span class="padding10">Reinforcement learning</span></h4>
+               <div class="row">
+                  <div class="col-md-3 column">
+                     <figure><img src="images/rl.png" alt="Reinforcement learning"></figure>
+                  </div>
+                  <div class="col-md-9">
+                     <p class="dummy_text">Reinforcement learning is a machine learning paradigm that learns by trial-and-error. An agent tries an action, the world responds with a new situation and a reward signal, and over many such interactions the agent works out a strategy for acting well.</p>
+                     <p class="dummy_text">What makes this a powerful paradigm is that no right answer needs to be specified in advance. You describe what counts as good, and the agent discovers how to get there. This suits sequential problems where today&rsquo;s choice shapes tomorrow&rsquo;s options and the payoff only arrives much later (e.g., managing a power grid, routing traffic, planning a course of treatment).</p>
+                     <p class="dummy_text">However, this also makes the reward signal enormously consequential. Everything the agent comes to value flows from that one number, so an incomplete or careless specification produces an agent that is highly competent at the wrong thing. The standard formulation asks us to compress everything we care about into a single scalar, and together with colleagues I have argued that this is often not enough: <a href="https://doi.org/10.1007/s10458-022-09575-5" target="_blank">Scalar reward is not enough</a> sets out why.</p>	
+                  </div>
+               </div>
+            </div>
+            <div class="market_section_2" id="marl">
+               <h4 class="market_text"><span class="padding10">Multi-agent systems</span></h4>
+               <div class="row">
+                  <div class="col-md-3 column">
+                     <figure><img src="images/marl.png" alt="Multi-agent systems"></figure>
+                  </div>
+                  <div class="col-md-9">
+                     <p class="dummy_text">Most interesting decision problems are not solitary ones. Traffic networks, energy markets, supply chains, etc., all involve many agents acting at the same time, each with their own information and their own stake in how things turn out.</p>
+                     <p class="dummy_text">This changes the learning problem fundamentally. A single agent faces a world that, however complicated, holds still while it learns. Put several learners in the same environment and as each one adapts, it changes the very problem the others are trying to solve. Convergence guarantees weaken, and &ldquo;optimal&rdquo; stops being well defined, because the best I can do depends on what you do.</p>
+                     <p class="dummy_text">Much of my work looks at settings where incentives are neither perfectly aligned nor purely opposed, which is where most real systems live. When does cooperation emerge without anyone imposing it? What happens when agents are not even certain whether their incentives are aligned, as we studied in <a href="https://arxiv.org/abs/2401.12646" target="_blank">Emergent cooperation under uncertain incentive alignment</a>? And how do communication and commitment change what a group of learners can achieve together?</p>
+                     <p class="dummy_text">Game theory gives us the vocabulary for these questions (i.e., equilibria, best responses, social welfare). Learning gives us agents that either find their way to those outcomes on their own, or do not. I am interested in the gap between the two.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="market_section_2" id="morl">
+               <h4 class="market_text"><span class="padding10">Multi-Objective Decision-Making</span></h4>
+               <div class="row">
+                  <div class="col-md-3 column">
+                     <figure><img src="images/morl.png" alt="Multi-Objective Decision-Making"></figure>
+                  </div>
+                  <div class="col-md-9">
+                     <p class="dummy_text">Real decisions rarely have a single criterion. A pandemic mitigation policy weighs infections against economic and social cost. A transport plan weighs travel time against emissions and fairness. Collapsing these into one number means deciding in advance exactly how much one matters relative to another. And that is usually a value judgement, not a technical detail.</p>
+                     <p class="dummy_text">Multi-objective decision making opens up a different route. The agent receives a vector of rewards, one component per objective, and keeps them apart. Instead of a single optimal policy there is a Pareto front: the set of policies where you cannot do better on one objective without doing worse on another. The trade-off becomes something a decision maker can see and choose from, rather than something buried inside a reward function. <a href="https://doi.org/10.1007/s10458-022-09552-y" target="_blank">A practical guide to multi-objective reinforcement learning and planning</a> covers this in more detail. Actually constructing that front is a challenge in its own right. In <a href="https://doi.org/10.65109/xqbl5396" target="_blank">IPRO</a> (Iterated Pareto Referent Optimisation) we decompose the problem into a sequence of single-objective ones, which gives us convergence guarantees and, at every step, a bound on how far any still-undiscovered policy can lie.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="market_section_2" id="momarl">
+               <h4 class="market_text"><span class="padding10">Multi-Objective Multi-Agent Decision-Making</span></h4>
+               <div class="row">
+                  <div class="col-md-3 column">
+                     <figure><img src="images/momarl.png" alt="Multi-Objective Multi-Agent Decision-Making"></figure>
+                  </div>
+                  <div class="col-md-9">
+                     <p class="dummy_text">This setting looks at many agents, each with several objectives, and each with their own view of how those objectives should be traded off against one another. Combining the two is not simply doing both at once. In a single-agent multi-objective problem you can lay the Pareto front in front of a user and let them pick. With many agents there is no single user to ask: every agent has its own utility function, and my trade-off is not yours. Even what counts as a solution has to be rethought: what is an equilibrium when payoffs are vectors and each player scalarises them differently?</p>
+                     <p class="dummy_text">Together with colleagues I mapped out this space in <a href="https://doi.org/10.1007/s10458-019-09433-x" target="_blank">Multi-objective multi-agent decision making: a utility-based analysis and survey</a>, which sets out a taxonomy of these settings and the solution concepts each one calls for. The details matter more than one might expect: whether agents optimise scalarised expected returns or expected scalarised returns changes which equilibria exist at all, and under some formulations Nash equilibria are no longer guaranteed to exist.</p>
+                     <p class="dummy_text">The field also needed shared ground to build on, which is why we developed <a href="https://momaland.farama.org" target="_blank">MOMAland</a>, an open-source set of benchmarks for multi-objective multi-agent reinforcement learning.</p>
+                     <p class="dummy_text">I find this a general way to model a great many real systems: several parties, several objectives each, and no single vantage point from which to declare one outcome best. I set out that case, and where I think the field needs to go next, in <a href="https://ebooks.iospress.nl/doi/10.3233/FAIA240464" target="_blank">The World is a Multi-Objective Multi-Agent System: Now What?</a>.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+<div class="row">
+      <!-- market section end -->
+          <!-- footer section start -->
+      <div class="footer_section layout_padding margin_top90">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-9">
+                  <div class="newslatter_main">
+                     <div class="footer_social_icon">
+                        <ul>
+                           <li><a href="https://x.com/rox_teo" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                           <li><a href="https://www.linkedin.com/in/roxana-radulescu-62696563/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+<div class="col-md-9">
+            <p class="copyright_text">Copyright &copy<script>document.write(new Date().getFullYear());</script> All Rights Reserved | Design by <a href="https://html.design">Free Html Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
+         </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
